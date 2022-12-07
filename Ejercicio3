@@ -1,0 +1,25 @@
+public class main {
+
+    public static void main (String[] arg){
+        //int param1 = 10;
+        //int param2 = 20;
+        //int param3 = 30;
+        //var valor= suma(param1, param2, param3);
+        //System.out.println(valor);
+        coche miCoche = new coche();
+        miCoche.numeropuertas();
+        System.out.println(miCoche.numeropuertas);
+    }
+
+    public static int suma(int a, int b, int c){
+        return a + b + c ;
+
+    }
+}
+class coche {
+    public int numeropuertas = 5;
+
+    public void numeropuertas(){
+        this.numeropuertas++;
+    }
+}
